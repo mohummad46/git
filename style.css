@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.logo a{
+    text-decoration: none;
+    text-shadow: 2px 2px 30px rgba(red, green, blue, alpha);
+    font-weight: 800;
+    color:black;
+    letter-spacing: 1;
+    font-size: 2rem;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+
+}
+.logo{
+    position: absolute;
+    left:90px;
+    top: 50px;
+}
+.searcharea{
+    position: fixed;
+    right: 90px;
+    top:50px;
+    width: 170px;
+    height: 45px;
+    background-color:rgb(252, 247, 247) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10% 10% 10% 10% / 50% 50% 50% 50%;
+    box-shadow: 5px 5px 5px rgb(red, green, blue) ;
+    box-sizing: border-box;
+    z-index:1;
+    border:1px solid rgba(red, green, blue, alpha)
+    text-shadow:5px 5px 5px;
+}
+.searcharea input {
+    width: 90px;
+    height: 20;
+    border:none;
+    outline: none;
+    background-color:transparent ;
+    color: #1f1f1f;
+    font-size: 1rem;
+    padding: 0px 10px;
+
+}
+.searchbox input::placeholder{
+    color: #1d1d1d;
+    font-weight: 400;
+     font-size:0.8rem ;
+     font-family: poppins;
+}
+.image{
+    position:absolute;
+    left:15%;
+    top:30%;
+    transform: translate(-15% -30%);
+
+
+}
+.image img{
+    width: 500px;
+
+}
+    .sectionbutton{
+        position: absolute;
+        left :75%;
+        top:45%;
+        transform: translate(-75% -45%);
+
+    }
+    .sectionbutton h1, h2 {
+        font-family: roboto;
+        font-weight: bold;
+        margin:0px;
+        line-height: 60px;
+        font-size: 2rem;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.08);
+        letter-spacing:3px;
+        color:#3d3d4a; 
+        text-transform: uppercase;
+
+    }
+    .sectionbutton h1 span {
+        color:#150cce;
+    }
+.sectionbutton h2 span{
+    color:#150cce;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: #2f2e41;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.08);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    margin-top: 5px;
+    font-weight: 600px;
+    color:#fff;
+    font-family: calibri;
+    font-weight: ;
+    letter-spacing: 1px;
+    font-size:1rem ;
+    outline:none;
+    cursor:pointer;
+    border: transparent !important;
+
+}
+.btn:hover{
+    color:#fff;
+    background-color: rgb(93, 192, 93);
+    transform: all ease 0.5s;
+}
+.icon a{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+}
+.icon{
+    position: fixed;
+    left: 30px;
+    top:50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    background-color: rgb(236, 222, 222);
+    z-index: 1;box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.08);
+
+
+}
+.icon a:hover{
+    color:red;
+}
+
+
+
+
