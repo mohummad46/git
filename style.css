@@ -7,7 +7,7 @@
     text-decoration: none;
     text-shadow: 2px 2px 30px rgba(red, green, blue, alpha);
     font-weight: 800;
-    color:black;
+    color:rgb(53, 52, 52);
     letter-spacing: 1;
     font-size: 2rem;
 }
@@ -36,12 +36,12 @@
     box-shadow: 5px 5px 5px rgb(red, green, blue) ;
     box-sizing: border-box;
     z-index:1;
-    border:1px solid rgba(red, green, blue, alpha)
+    border:1px solid rgba(red, green, blue, alpha);
     text-shadow:5px 5px 5px;
 }
 .searcharea input {
     width: 90px;
-    height: 20;
+    height: 20 px;
     border:none;
     outline: none;
     background-color:transparent ;
@@ -49,11 +49,14 @@
     font-size: 1rem;
     padding: 0px 10px;
 
+
 }
-.searchbox input::placeholder{
+
+
+    .searchbox input::placeholder{
     color: #1d1d1d;
     font-weight: 400;
-     font-size:0.8rem ;
+     font-size:1rem ;
      font-family: poppins;
 }
 .image{
@@ -65,7 +68,7 @@
 
 }
 .image img{
-    width: 500px;
+    width: 600px;
 
 }
     .sectionbutton{
@@ -85,14 +88,15 @@
         letter-spacing:3px;
         color:#3d3d4a; 
         text-transform: uppercase;
-
     }
+
     .sectionbutton h1 span {
         color:#150cce;
     }
 .sectionbutton h2 span{
     color:#150cce;
 }
+    
 .btn{
     width: 150px;
     height: 40px;
@@ -176,6 +180,10 @@
    
     
 }
+
+.productsection>h3 span {
+    color:#150cce;
+}
 .product{
         
     display: flex;
@@ -242,7 +250,7 @@ width: 100%S;
     }
     .productbox:hover a:last-child{
         color:#fff;
-    transition: all ease 0,S3s;    }
+    transition: all ease 0,3s;    }
 
 
 
