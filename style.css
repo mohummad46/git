@@ -252,5 +252,111 @@ width: 100%S;
         color:#fff;
     transition: all ease 0,3s;    }
 
+    .about{
+        display:flex;
+        width: 85%;
+        margin:30px auto;
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px;
+    margin-bottom: 150px;
+    }
+
+    .aboutbox{
+       
+        width: 40%;
+        font-family: myriad pro;
+    }
+.aboutbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.aboutbox h1{
+    color:#333333;;
+    font-weight: 800;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.aboutbox h4{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.aboutbox span{
+    color: #150cce;
+}
+.aboutbox p{
+    margin-top: 5px;
+    color: #bdbdbd;
+    letter-spacing: o.05;
+}
+  
+    
 
 
+.notification{
+    width: 100%;
+    height: 250px;
+    margin-bottom:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+}
+.notification h1{
+    font-size: 2rem;
+
+}
+.notificationinput{
+    width: 500px;
+    height: 60px;
+    background-color: #ffff;
+    display: flex;
+    border-radius: 7% 7% 7% 7% / 50% 50% 50% 50% ;
+    justify-content:center ;
+    align-items: center;
+    padding: 5px 20px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.08)
+}
+.notification input{
+    width: 100%;
+    border:none;
+    outline: none;
+    background-color: transparent;
+}
+.notificationbutton{
+    width: 120px;
+    height: 40px;
+    background-color: #1d1d1d;
+    border-radius:20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    text-decoration: uppercase;
+    font-weight:bold;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.08);
+
+}
+.notificationbutton:hover{
+    background-color: #6b60ec;
+    transition: all ease 0.5s;
+}
+
+
+
+
+footer{
+    background-color: black;
+    padding: 20px;
+}
+footer p{
+    text-align: center;
+    color:white;
+}
